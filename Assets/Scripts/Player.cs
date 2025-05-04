@@ -6,7 +6,8 @@ public class Player :MonoBehaviour
     public float velocity = 2.4f;
     private Rigidbody2D rigidbody;
     private PlayerInputActions inputActions;
-
+    public GameManager gameManager;
+    public bool isDead = false;
 
 
     // Start is called before the first frame update
@@ -38,13 +39,9 @@ public class Player :MonoBehaviour
         rigidbody.linearVelocity = Vector2.up * velocity;
     }
 
-    // Update is called once per frame
-    //void Update()
-    //{
-    //    if (Mouse.current.leftButton.wasPressedThisFrame)
-    //    {
-    //        Debug.Log("Pressed left-click.");
-    //        rigidbody.linearVelocity = Vector2.up * velocity;
-    //    }
-    //}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        isDead = true;
+        gameManager.GameOver();
+    }
 }

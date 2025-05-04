@@ -274,6 +274,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1522,7 +1535,63 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flappy Bird Sprites_0: 6254297855602184059
+      Flappy Bird Sprites_1: -1446630399955053974
+      Flappy Bird Sprites_10: 252386641032843952
+      Flappy Bird Sprites_11: 111172283438338438
+      Flappy Bird Sprites_12: -5181194430848802102
+      Flappy Bird Sprites_13: -8686035819236301637
+      Flappy Bird Sprites_14: 893187905295618055
+      Flappy Bird Sprites_15: -1237444684384467597
+      Flappy Bird Sprites_16: 2766558838143483615
+      Flappy Bird Sprites_17: -7257300506590164176
+      Flappy Bird Sprites_18: 4381356264844738291
+      Flappy Bird Sprites_19: -7732161631704433308
+      Flappy Bird Sprites_2: 7639703789202663196
+      Flappy Bird Sprites_20: -5306503162392590065
+      Flappy Bird Sprites_21: 6678224800518271436
+      Flappy Bird Sprites_22: 6519367519855379763
+      Flappy Bird Sprites_23: -6462699529281187060
+      Flappy Bird Sprites_24: 3755815422007417192
+      Flappy Bird Sprites_25: 4059762669117696758
+      Flappy Bird Sprites_26: -7289325287177181031
+      Flappy Bird Sprites_27: 7848166926866087734
+      Flappy Bird Sprites_28: -4860639630070131219
+      Flappy Bird Sprites_29: -8436936780237523554
+      Flappy Bird Sprites_3: 4959930989637110683
+      Flappy Bird Sprites_30: 7463879149399538272
+      Flappy Bird Sprites_31: 7665679511463452981
+      Flappy Bird Sprites_32: 3802307496682136100
+      Flappy Bird Sprites_33: -6552382079645713034
+      Flappy Bird Sprites_34: -4584020314676575832
+      Flappy Bird Sprites_35: 2017779906799538684
+      Flappy Bird Sprites_36: -2532198505405485274
+      Flappy Bird Sprites_37: -8312305783496122869
+      Flappy Bird Sprites_38: -1265901656489246254
+      Flappy Bird Sprites_39: -3239890441848836053
+      Flappy Bird Sprites_4: -1832971715830722056
+      Flappy Bird Sprites_40: 7810179555424174664
+      Flappy Bird Sprites_41: 5026344120216780849
+      Flappy Bird Sprites_42: -6352749263501769950
+      Flappy Bird Sprites_43: -3844619602797177613
+      Flappy Bird Sprites_44: 3267909574904506128
+      Flappy Bird Sprites_45: -4410680050662276863
+      Flappy Bird Sprites_46: -4070596022202005195
+      Flappy Bird Sprites_47: -1515027258409819686
+      Flappy Bird Sprites_48: 5387537059469811759
+      Flappy Bird Sprites_49: 1321999068819581373
+      Flappy Bird Sprites_5: 2412324547777011209
+      Flappy Bird Sprites_50: 8063455923191749621
+      Flappy Bird Sprites_51: 2890713156346551800
+      Flappy Bird Sprites_52: -1599164551076976453
+      Flappy Bird Sprites_53: 4035858621977083768
+      Flappy Bird Sprites_54: 8725714472616091755
+      Flappy Bird Sprites_55: -6992681338139404674
+      Flappy Bird Sprites_6: -2004359676323012058
+      Flappy Bird Sprites_7: 5140492561284378634
+      Flappy Bird Sprites_8: -576933914401932536
+      Flappy Bird Sprites_9: -4371099951211164957
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
