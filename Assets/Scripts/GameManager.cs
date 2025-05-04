@@ -5,6 +5,8 @@ using UnityEditor.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject startButton;
+    public GameObject quitButton;
+
     public Player player;
 
     public Text gameOverCountdown;
@@ -15,10 +17,8 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Start");    
         gameOverCountdown.gameObject.SetActive(false);
+        quitButton.SetActive(true);
         Time.timeScale = 0;
-        
-        startButton.SetActive(true);
-        //Time.timeScale = 1;
     }
 
     private void Update()
@@ -27,7 +27,6 @@ public class GameManager : MonoBehaviour
         {
             gameOverCountdown.gameObject.SetActive(true);
             countTimer -= Time.unscaledDeltaTime;
-            Debug.Log("Counter: " + countTimer.ToString("0"));
         }
 
         gameOverCountdown.text = "Restarting in " + countTimer.ToString("0");
@@ -41,6 +40,15 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         Debug.Log("StartGame");
+        startButton.SetActive(true);
+        Time.timeScale = 1;
+    }
+
+    public void Patata()
+    {
+        Debug.Log("Patata");
+        startButton.gameObject.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void GameOver()
@@ -54,5 +62,10 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("RestartGame");
         EditorSceneManager.LoadScene(0);
+    }
+
+    public void Salir(){
+        Debug.Log("Exit");
+        Application.Quit();
     }
 }
