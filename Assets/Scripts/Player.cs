@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class Player :MonoBehaviour
 {
     public float velocity = 2.4f;
-    private Rigidbody2D rigidbody;
+    private new Rigidbody2D rigidbody;
     private PlayerInputActions inputActions;
 
     public GameManager gameManager;
