@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEditor.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -39,33 +38,23 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        Debug.Log("StartGame");
-        startButton.SetActive(true);
-        Time.timeScale = 1;
-    }
-
-    public void Patata()
-    {
-        Debug.Log("Patata");
+        Debug.Log("Start Game");
         startButton.gameObject.SetActive(false);
         Time.timeScale = 1;
     }
 
     public void GameOver()
     {
-        Debug.Log("GameOver");
         Time.timeScale = 0;
     }
 
 
     public void RestartGame()
     {
-        Debug.Log("RestartGame");
-        EditorSceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 
     public void Salir(){
-        Debug.Log("Exit");
         Application.Quit();
     }
 }
